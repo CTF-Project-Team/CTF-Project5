@@ -1,4 +1,4 @@
-#footer {
+footer {
   text-align: left;
   position: absolute;
   bottom: 0;
@@ -8,7 +8,7 @@
 }
 
 #myBtn {
-  display: none;
+  display: inline;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -16,7 +16,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: rgba(0, 0, 255, 0.404);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -24,5 +24,24 @@
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+h1 {
+  color: blue;
+}
+
+h2:hover, p:hover {
+  color: blue;
+}
+
+.nav1 {
+  border: 2px dotted black;
+  padding: 7px;
+}
+
+.pages {
+  border: 1px solid black;
+  padding: 2px;
+  margin: none;
 }
