@@ -39,6 +39,7 @@ main {
 
 h1 {
   color: blue;
+  font-family: serif;
 }
 
 h2:hover, p:hover {
@@ -88,4 +89,5 @@ figcaption {
 
 body {
   text-align: center;
+  font-family: sans-serif;
 }
