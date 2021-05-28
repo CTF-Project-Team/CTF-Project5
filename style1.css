@@ -42,10 +42,6 @@ h1 {
   font-family: serif;
 }
 
-h2:hover, p:hover {
-  color: blue;
-}
-
 .nav1 {
   border: 2px dotted black;
   padding: 7px;
