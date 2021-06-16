@@ -3,7 +3,7 @@ footer {
   text-align: left;
   position: absolute;
   margin-top: -200;
-  width: 100%;
+  width: 99%;
   height: 10%;
   /* Height of the footer */
 }
@@ -73,13 +73,11 @@ figcaption {
 .next {
   bottom: 1px;
   margin: 10px;
-  color: white;
   text-decoration: none;
 }
 
 .next:visited {
   bottom: 5px;
-  color: white;
   text-decoration: none;
 }
 
@@ -89,9 +87,11 @@ body {
 }
 
 a {
-  color: aqua;
+  color: aquamarine;
+  text-decoration: none;
 }
 
 a:visited {
-  color: turquoise;
+  color: rgb(0, 180, 162);
+  text-decoration: none;
 }
