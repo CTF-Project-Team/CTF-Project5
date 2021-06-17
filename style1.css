@@ -42,12 +42,12 @@ h1 {
   font-family: serif;
 }
 
-.nav1 {
+nav.nav1 {
   border: 2px dotted black;
   padding: 7px;
 }
 
-.pages {
+a.pages {
   border: 1px solid black;
   padding: 2px;
   margin: 1px;
@@ -56,6 +56,8 @@ h1 {
 #homeNav {
   padding: 3px;
   border: 2px dotted black;
+  background-color: rgba(8, 8, 8, 0.26);
+  width: 1510px;
 }
 
 figcaption {
@@ -94,4 +96,9 @@ a {
 a:visited {
   color: rgb(0, 180, 162);
   text-decoration: none;
+}
+
+h1.alert {
+  size: xx-large;
+  color: red;
 }
