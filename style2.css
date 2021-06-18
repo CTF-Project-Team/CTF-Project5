@@ -9,6 +9,7 @@ img#img1 {
 footer#special {
     bottom: 0px;
     position: absolute;
+    width: 100%
 }
 
 a#rick {
@@ -18,5 +19,5 @@ a#rick {
 }
 
 body {
-    text-align: center;
+    background-color: rgb(59, 59, 59);;
 }
