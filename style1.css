@@ -1,11 +1,11 @@
 footer {
-  background: rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
   text-align: left;
   position: absolute;
   margin-top: -200;
   width: 99%;
   height: 10%;
-  /* Height of the footer */
+  color: white;
 }
 
 header {
@@ -101,4 +101,28 @@ a:visited {
 h1.alert {
   size: xx-large;
   color: red;
+}
+
+img#img1 {
+  top: 0px;
+  left: 8px;
+  position: absolute;
+  width: 1520.8px;
+  z-index: -1;
+}
+
+footer#special {
+  bottom: 0px;
+  position: absolute;
+  width: 100%
+}
+
+a#rick {
+  background-color: rgba(8, 8, 8, 0.26);
+  padding: 5px;
+  border: 1.5px solid black;;
+}
+
+body#home {
+  background-color: rgb(59, 59, 59);;
 }
